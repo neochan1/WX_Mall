@@ -1,0 +1,25 @@
+.first_tab{
+    .goods_item{
+        display: flex;
+        .goods_img_wrap{
+            display: flex;
+            flex: 2;
+            justify-content: center;
+            align-items: center;
+
+            image{
+                width: 70%; 
+            } 
+        }
+        .goods_info_wrap{
+            flex: 3;
+            .good_name{
+                display: -webkit-box;
+                overflow: hidden;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+            }
+            .goods_price{}
+        }
+    }
+}
